@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1771E2BF1C6C64C200E3C2C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1771E2BE1C6C64C200E3C2C4 /* main.cpp */; };
+		1783BA971C6C66E300E6F33A /* Neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1783BA951C6C66E300E6F33A /* Neuron.cpp */; };
+		1783BA9A1C6C743E00E6F33A /* Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1783BA981C6C743E00E6F33A /* Layer.cpp */; };
+		1783BA9D1C6C793F00E6F33A /* BitmapReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1783BA9B1C6C793F00E6F33A /* BitmapReader.cpp */; };
+		1783BAA01C6C947100E6F33A /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1783BA9E1C6C947100E6F33A /* Utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		1771E2BB1C6C64C200E3C2C4 /* neuralnet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = neuralnet; sourceTree = BUILT_PRODUCTS_DIR; };
 		1771E2BE1C6C64C200E3C2C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1783BA951C6C66E300E6F33A /* Neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Neuron.cpp; sourceTree = "<group>"; };
+		1783BA961C6C66E300E6F33A /* Neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
+		1783BA981C6C743E00E6F33A /* Layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Layer.cpp; sourceTree = "<group>"; };
+		1783BA991C6C743E00E6F33A /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		1783BA9B1C6C793F00E6F33A /* BitmapReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitmapReader.cpp; sourceTree = "<group>"; };
+		1783BA9C1C6C793F00E6F33A /* BitmapReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapReader.h; sourceTree = "<group>"; };
+		1783BA9E1C6C947100E6F33A /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		1783BA9F1C6C947100E6F33A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				1771E2BE1C6C64C200E3C2C4 /* main.cpp */,
+				1783BA951C6C66E300E6F33A /* Neuron.cpp */,
+				1783BA961C6C66E300E6F33A /* Neuron.h */,
+				1783BA981C6C743E00E6F33A /* Layer.cpp */,
+				1783BA991C6C743E00E6F33A /* Layer.h */,
+				1783BA9B1C6C793F00E6F33A /* BitmapReader.cpp */,
+				1783BA9C1C6C793F00E6F33A /* BitmapReader.h */,
+				1783BA9E1C6C947100E6F33A /* Utils.cpp */,
+				1783BA9F1C6C947100E6F33A /* Utils.h */,
 			);
 			path = neuralnet;
 			sourceTree = "<group>";
@@ -118,6 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1783BA9A1C6C743E00E6F33A /* Layer.cpp in Sources */,
+				1783BA9D1C6C793F00E6F33A /* BitmapReader.cpp in Sources */,
+				1783BA971C6C66E300E6F33A /* Neuron.cpp in Sources */,
+				1783BAA01C6C947100E6F33A /* Utils.cpp in Sources */,
 				1771E2BF1C6C64C200E3C2C4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +256,7 @@
 				1771E2C41C6C64C200E3C2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
